@@ -1,0 +1,130 @@
+body{
+    width: 100%;
+    /* background-color: black; */
+
+  }
+  
+  p{
+    font-family: 'Kiwi Maru', serif;
+    font-weight: 300;
+    /* text-size: 12px; */
+    font-size: 12px;
+    
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }  
+  h1{
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;
+  }
+  .container{
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;
+    background-image: url(../images/dest-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -0.5rem;
+    padding-bottom: 1rem;
+  }
+  
+  .hide{
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+  padding: 10px 20px;
+    border: 1px solid #f9f3fa;
+    font-size: 12px;
+  }
+  
+  .russia-txt{
+    top: 20%;
+    left: 80%;
+  }
+
+  .india-txt{
+    top: 50%;
+    left: 80%;
+  }
+  
+  .uk-txt{
+    top: 25%;
+    left: 65%;
+  }
+  
+  .usa-txt{
+    top: 25%;
+    left: 55%;
+  }
+  
+  .brazil-txt{
+    top: 60%;
+    left: 68%;
+  }
+  .no{
+    color: white;
+  }
+  
+  .row{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.Country-list{
+  background-color: #333;
+}
+.Image{
+  padding: .5rem;
+}
+.brand-img{
+ margin-top: -4rem;
+  width: 20rem;
+}
+.Country-list p{
+  /* background-color: black; */
+  color: goldenrod;
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+.Country-list ul{
+  color: goldenrod;
+  transition: all 0.7s ease;
+  padding: 20px;
+}
+.Country-list ul:hover{
+  padding-right: 10px;
+}
+svg{
+  background-color: rgba(255, 255, 255, 0.479);
+  border-radius: 20px;
+  margin-top: 4rem;
+}
+@media(max-width: 1200px){
+.no{
+  display: none;
+}
+}
